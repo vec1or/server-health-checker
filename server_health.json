@@ -1,0 +1,17 @@
+{
+    "timestamp": "2026-09-29T12:13:51.914755",
+    "metrics": {
+        "cpu_percent": 32.9,
+        "memory_percent": 79.4,
+        "disk_percent": 67.6
+    },
+    "http_request": {
+        "status_code": null,
+        "status": "DOWN",
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    "problems": [
+        "HTTP is down"
+    ],
+    "status": "UNHEALTHY"
+}
